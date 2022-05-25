@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  text-align: center;
+  background-color: hsl(233, 47%, 7%);
+  /* margin: %, really made the difference in the page being responsive */
+  margin: 10%;
+}
+.container {
+  background-color: hsl(244, 38%, 16%);
+  color: white;
+  padding: 0px 0px;
+}
+.container h2 {
+  padding-top: 30px;
+  text-transform: capitalize;
+  padding-bottom: 15px;
+  font-family: "outfit", sans-serif;
+  font-weight: 900;
+}
+.container p {
+  font-size: 14px;
+  font-family: "outfit", sans-serif;
+  padding: 0px 20px 20px 20px;
+  color: (0, 0%, 100%, 0.75);
+  line-height: 1.5;
+  text-align: center;
+  word-spacing: 3px;
+}
+.container span {
+  color: (0, 0%, 100%, 0.75);
+  text-transform: uppercase;
+  font-size: 13px;
+  font-family: "outfit", sans-serif;
+}
+.container li {
+  padding: 12px;
+  list-style-type: none;
+  font-family: "outfit", sans-serif;
+  font-weight: 500;
+  padding-top: 20px;
+  font-size: 25px;
+}
+.attribution {
+  padding: 50px 5px;
+}
+.container img {
+  border-radius: 3% 3% 0 0;
+  width: 100%;
+}
+strong {
+    color: hsl(277, 64%, 61%);
+}
+
+
